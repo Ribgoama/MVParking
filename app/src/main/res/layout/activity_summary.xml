@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_summary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ribgoamaw.mvparking.SummaryActivity">
+
+    <TextView
+        android:text="Reservation Summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView13"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="Your Valet Drivers is:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView22"
+        android:textStyle="normal|bold"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Congratulations! Your Reservation has been confirmed."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_toStartOf="@+id/textView13"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignEnd="@+id/textView22"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView23"
+        android:layout_toEndOf="@+id/textView22" />
+
+    <TextView
+        android:text="1523 Holcomb Blvd. Houston, TX 77033."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginTop="12dp"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Mr. Ribgoama will be glad to meet you at:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:layout_above="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="At: 11:25 AM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Mr. Ribgoama Bolden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/textView23"
+        android:layout_toEndOf="@+id/textView23" />
+
+    <TextView
+        android:text="You May Now Relax and Chuckle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_marginTop="39dp"
+        android:id="@+id/textView28"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="He will park your"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="at a safe, secured, and convenient location."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Black 2016 Ferrari GTC4LUSSO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/textView31"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_alignStart="@+id/textView25" />
+</RelativeLayout>
